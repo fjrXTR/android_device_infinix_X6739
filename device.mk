@@ -320,7 +320,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.pixel-libperfmgr
+    android.hardware.power-service.lineage-libperfmgr
 
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower@1.2-service.stub \
@@ -407,13 +407,13 @@ PRODUCT_SHIPPING_API_LEVEL := 33
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/mediatek \
-    hardware/mediatek/libmtkperf_client \
     hardware/google/interfaces \
     hardware/google/pixel/pixelstats \
-    hardware/google/pixel/power-libperfmgr
+    hardware/google/pixel/power-libperfmgr \
+    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/mediatek \
+    hardware/mediatek/libmtkperf_client \
     hardware/transsion
 
 # Thermal
