@@ -810,7 +810,7 @@ vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
 vendor/lib64/libwvhidl.so
 
 # Fingerprint
-vendor/etc/vintf/manifest/manifest.xml|a04f9d93e5c6f02a6bdc3b093d8f8d426bd88d5c
+vendor/etc/vintf/manifest/manifest.xml:vendor/etc/vintf/manifest/manifest_goodix.xml|a04f9d93e5c6f02a6bdc3b093d8f8d426bd88d5c
 vendor/etc/init/vendor.goodix.rc|0dca9347309dc4ff0b57fd6a14b7e41d45130984
 vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so|391c9727dbdadfe83682dfc6f989b7e9e862392f
 vendor/lib64/vendor.mediatek.hardware.biometrics.fingerprint@2.1.so|9b2e1682b07d50326a2ca39a73f0f79516cc0d61
